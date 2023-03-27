@@ -49,7 +49,7 @@ class Menu:
         Sensor.guardarSensores()
         
     def _tipoSensor(self):
-        op = input("---SENSORES---\n1)Corriente\n2)Sonido\n3)Flama\n4)Luz\n5)Humo\n6)Presencia\n7)Temperatura\n8)Magnetico\n9)Humedad\nElige un tipo: ")
+        op = input("---SENSORES---\n1)Corriente\n2)Sonido\n3)Flama\n4)Luz\n5)Humo\n6)Presencia\n7)Temperatura\n8)Magnetico\n9)ultrasonico\nElige un tipo: ")
         if op == "1":
             return "corriente"
         elif op == "2":

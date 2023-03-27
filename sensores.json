@@ -10,18 +10,5 @@
         "pines": [
             22
         ]
-    },
-    {
-        "_id": "9",
-        "nombre": "Ultrasonico",
-        "tipo": "ultrasonico",
-        "unidad":"cm",
-        "pines": [
-            23,
-            24
-        ],
-        "ubicacion": "entrada",
-        "descripcion": "detecta distancias",
-        "fecha_creacion": "2023-03-22 15:12:22.893603"
     }
 ]
