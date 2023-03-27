@@ -8,18 +8,18 @@ class Menu:
         pass
     def interfaze(self):
         print("\n-----Menu-----")
-        op =  input("a) Insertar Sensor\nb)Leer datos\nc)Subir Datos\nd)Leer Sensores\ne)Recargar Sensores\nf)LED \n Elige una opcion: ")
-        if(op == "a"):
+        op =  input("1 Insertar Sensor\n2)Leer datos\n3)Subir Datos\n4)Leer Sensores\n5)Recargar Sensores\n6)LED \n Elige una opcion: ")
+        if(op == "1"):
             self.insertarSensor()
-        elif(op=="b"):
+        elif(op=="2"):
             self.leerDatos()
-        elif(op=="c"):
+        elif(op=="3"):
             self.subirDatos()
-        elif(op=='d'):
+        elif(op=='4'):
             Sensor.mostrarSensores()
-        elif(op == 'e'):
+        elif(op == '5'):
             self.cargarSensores()
-        elif (op == 'f'):
+        elif (op == '6'):
             Sensor.led()
         else:
             print("opcion no valida")
