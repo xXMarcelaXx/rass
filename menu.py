@@ -41,7 +41,8 @@ class Menu:
         ubicacion = input("Escribir ubicacion: ")
         descripcion = input("Escribir descripcion: ")
         fecha = str(datetime.datetime.now())
-        sensor = Sensor(id,nombre,tipo,ubicacion,descripcion,fecha,pines)
+        unidad = input("Escribir unidad de medida: ")
+        sensor = Sensor(id,nombre,tipo,ubicacion,descripcion,fecha,pines,unidad)
         conexion = ConexionMongo("Sensores","senosresInfo");
         conexion.agregarCollection(sensor.__dict__)
         conexion.cerrarConexion()
