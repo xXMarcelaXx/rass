@@ -192,19 +192,3 @@ class Sensor:
                 print("Opcion no valida")
             res = input("deseas salir?")
         GPIO.cleanup()
-
-
-#Sensor.mostrarSensores()
-#input("escribe algo")
-
-
-
-#serial
-# Configura el objeto Serial
-#puerto_serial = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
-
-# Lee datos del puerto serial
-#while True:
-    #linea = puerto_serial.readline().decode('utf-8').rstrip()
-    #if linea:
-        #print(linea)
