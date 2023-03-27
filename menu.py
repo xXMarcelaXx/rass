@@ -7,8 +7,8 @@ class Menu:
     def __init__(self) -> None:
         pass
     def interfaze(self):
-        print("\n-----Menu-----")
-        op =  input("1 Insertar Sensor\n2)Leer datos\n3)Subir Datos\n4)Leer Sensores\n5)Recargar Sensores\n6)LED \n Elige una opcion: ")
+        print("\n########    Menu   ###########")
+        op =  input("1 Insertar Sensor\n2)Leer datos\n3)Subir Datos\n4)Leer Sensores\n5)Recargar Sensores\n6)LED\n################################## \n Elige una opcion: ")
         if(op == "1"):
             self.insertarSensor()
         elif(op=="2"):

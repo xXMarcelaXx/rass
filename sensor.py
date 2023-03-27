@@ -170,7 +170,7 @@ class Sensor:
                     humedad, temperatura = Adafruit_DHT.read_retry(dht, sensor['pines'][0])
                     print ('Humedad: ' , format(humedad))
                     print ('Temperatura: ' , format(temperatura))
-                    sensorDataTemperatura = {"type":'emperatura',"value":temperatura,"fecha_creacion":str(datetime.now()),"sensor":sensor}
+                    sensorDataTemperatura = {"type":'Temperatura',"value":temperatura,"fecha_creacion":str(datetime.now()),"sensor":sensor}
                     sensorDataHumedad = {"type":'Humedad',"value":humedad,"fecha_creacion":str(datetime.now()),"sensor":sensor}
                     lista.agregar(sensorDataTemperatura)
                     lista.agregar(sensorDataHumedad)                    
